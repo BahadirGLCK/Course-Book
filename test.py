@@ -1,5 +1,9 @@
-import numpy as np 
-import tensorflow as tf 
+import numpy 
+import tensorflow
 
-print("Numpy Version: ", np.__version__)
-print("Tensorflow Version: ", tf.__version__)
+def print_lib_version():
+  print("Numpy Version: ", numpy.__version__)
+  print("Tensorflow Version: ", tensorflow.__version__)
+
+if __name__ == '__main__':
+  print_lib_version()
