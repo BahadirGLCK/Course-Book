@@ -1,9 +1,13 @@
-import numpy 
-import tensorflow
+import unittest
 
-def print_lib_version():
-  print("Numpy Version: ", numpy.__version__)
-  print("Tensorflow Version: ", tensorflow.__version__)
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
 
 if __name__ == '__main__':
-  print_lib_version()
+    unittest.main()
