@@ -1,5 +1,5 @@
 # ML Course's or Book's Notes
-I will keep my notes.
+keep notes.
 
 1. Google ML Crash Course
 2. Data Preparation and Feature Engineering in ML
