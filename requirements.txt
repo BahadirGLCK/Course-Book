@@ -2,4 +2,4 @@ requests==2.22.0
 selenium==3.141.0
 
 numpy==1.17.4
-tensorflow==2.0.0
+tensorflow==2.0.1
